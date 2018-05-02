@@ -1,0 +1,32 @@
+package com.jt.web.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.jt.web.pojo.Cart;
+import com.jt.web.service.CartService;
+
+/**
+ * 购物车控制层
+ * @author 富强
+ *
+ */
+@Controller
+@RequestMapping("/cart/")
+public class CartController {
+	
+	@Autowired
+	private CartService cartService;
+	
+	@RequestMapping("show")
+	public String toCart(Model model){
+		Long userId = 7L;
+		List<Cart> carts = cartService.findCartByUserId(userId);
+		model.addAttribute("cartList", carts);
+		return "cart";
+	}
+}

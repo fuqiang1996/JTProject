@@ -1,0 +1,16 @@
+package com.jt.order.service.impl;
+
+import org.springframework.stereotype.Service;
+
+import com.jt.order.mapper.OrderItemMapper;
+import com.jt.order.mapper.OrderMapper;
+import com.jt.order.mapper.OrderShippingMapper;
+import com.jt.order.service.OrderService;
+
+@Service
+public class OrderServiceImpl implements OrderService {
+
+	private OrderMapper orderMapper;
+	private OrderItemMapper orderItemMapper;
+	private OrderShippingMapper orderShippingMapper;
+}

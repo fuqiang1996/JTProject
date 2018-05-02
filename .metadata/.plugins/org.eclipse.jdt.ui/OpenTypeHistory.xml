@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=jt-manager/src\/main\/java&lt;com.jt.manage.service{UserService.java[UserService" modifiers="513" timestamp="1519737523805"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-webmvc\/4.1.3.RELEASE\/spring-webmvc-4.1.3.RELEASE.jar&lt;org.springframework.web.servlet.view(InternalResourceViewResolver.class[InternalResourceViewResolver" modifiers="33" timestamp="1430875194000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-webmvc\/4.1.3.RELEASE\/spring-webmvc-4.1.3.RELEASE.jar&lt;org.springframework.web.servlet(DispatcherServlet.class[DispatcherServlet" modifiers="33" timestamp="1430875194000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-web\/4.1.3.RELEASE\/spring-web-4.1.3.RELEASE.jar&lt;org.springframework.web.filter(CharacterEncodingFilter.class[CharacterEncodingFilter" modifiers="33" timestamp="1430796826000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-beans\/4.1.3.RELEASE\/spring-beans-4.1.3.RELEASE.jar&lt;org.springframework.beans.factory.config(PropertyPlaceholderConfigurer.class[PropertyPlaceholderConfigurer" modifiers="33" timestamp="1430796852000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-tx\/4.1.3.RELEASE\/spring-tx-4.1.3.RELEASE.jar&lt;org.springframework.transaction.annotation(TransactionManagementConfigurer.class[TransactionManagementConfigurer" modifiers="1537" timestamp="1430875204000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-jdbc\/4.1.3.RELEASE\/spring-jdbc-4.1.3.RELEASE.jar&lt;org.springframework.jdbc.datasource(DataSourceTransactionManager.class[DataSourceTransactionManager" modifiers="33" timestamp="1430875198000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/mybatis\/mybatis-spring\/1.2.2\/mybatis-spring-1.2.2.jar&lt;org.mybatis.spring(SqlSessionFactoryBean.class[SqlSessionFactoryBean" modifiers="33" timestamp="1430875310000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/mybatis\/mybatis-spring\/1.2.2\/mybatis-spring-1.2.2.jar&lt;org.mybatis.spring.mapper(MapperScannerConfigurer.class[MapperScannerConfigurer" modifiers="33" timestamp="1430875310000"/>
+<typeInfo handle="=jt-manager/src\/main\/java&lt;com.jt.manage.service{ItemService.java[ItemService" modifiers="513" timestamp="1520949233695"/>
+<typeInfo handle="=jt-manager/src\/main\/java&lt;com.jt.manage.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1520916203755"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-web\/4.1.3.RELEASE\/spring-web-4.1.3.RELEASE.jar&lt;org.springframework.web.multipart.commons(CommonsMultipartResolver.class[CommonsMultipartResolver" modifiers="33" timestamp="1430796826000"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/redis\/clients\/jedis\/2.6.2\/jedis-2.6.2.jar&lt;redis.clients.jedis(Jedis.class[Jedis" modifiers="33" timestamp="1504109471099"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/redis\/clients\/jedis\/2.6.2\/jedis-2.6.2.jar&lt;redis.clients.jedis(JedisPoolConfig.class[JedisPoolConfig" modifiers="33" timestamp="1504109471099"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/data\/spring-data-redis\/1.4.1.RELEASE\/spring-data-redis-1.4.1.RELEASE.jar&lt;org.springframework.data.redis.connection.jedis(JedisConnectionFactory.class[JedisConnectionFactory" modifiers="33" timestamp="1504109562332"/>
+<typeInfo handle="=jt-common/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/data\/spring-data-redis\/1.4.1.RELEASE\/spring-data-redis-1.4.1.RELEASE.jar&lt;org.springframework.data.redis.core(StringRedisTemplate.class[StringRedisTemplate" modifiers="33" timestamp="1504109562332"/>
+<typeInfo handle="=jt-web/src\/main\/java&lt;com.jt.web.service{ItemService.java[ItemService" modifiers="513" timestamp="1520946065281"/>
+<typeInfo handle="=jt-sso/src\/main\/java&lt;com.jt.sso.service{UserService.java[UserService" modifiers="513" timestamp="1521039826894"/>
+<typeInfo handle="=jt-web/src\/main\/java&lt;com.jt.web.service{UserService.java[UserService" modifiers="513" timestamp="1521033717296"/>
+<typeInfo handle="=jt-cart/src\/main\/java&lt;com.jt.cart.service{CartService.java[CartService" modifiers="513" timestamp="1521118902567"/>
+<typeInfo handle="=jt-web/src\/main\/java&lt;com.jt.web.service{CartService.java[CartService" modifiers="513" timestamp="1521118569664"/>
+<typeInfo handle="=jt-web/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-webmvc\/4.1.3.RELEASE\/spring-webmvc-4.1.3.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1430875194000"/>
+<typeInfo handle="=jt-web/D:\/java\/repository_maven\/mvn_repo\/org\/springframework\/spring-webmvc\/4.1.3.RELEASE\/spring-webmvc-4.1.3.RELEASE.jar&lt;org.springframework.web.servlet(HandlerExceptionResolver.class[HandlerExceptionResolver" modifiers="1537" timestamp="1430875194000"/>
+<typeInfo handle="=jt-web/src\/main\/java&lt;com.jt.web.service{OrderService.java[OrderService" modifiers="513" timestamp="1521208875585"/>
+</typeInfoHistroy>

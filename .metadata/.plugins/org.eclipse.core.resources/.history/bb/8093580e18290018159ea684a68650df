@@ -1,0 +1,11 @@
+package com.jt.web.util;
+
+
+public class UserThreadLocal {
+	
+	private static ThreadLocal threadLocal = new ThreadLocal();
+	
+	
+
+	
+}

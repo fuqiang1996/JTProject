@@ -1,0 +1,31 @@
+package com.jt.web.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.jt.web.service.CartService;
+import com.jt.web.util.UserThreadLocal;
+
+@Controller
+@RequestMapping("/order/")
+public class OrderController {
+
+	@Autowired
+	private CartService cartService;
+	
+	/**
+	 * 1.需要跳转到订单的确认页面
+	 * 2.准备购物车信息
+	 * 		CartService 查询购物车信息
+	 * 3.将信息会传到页面中 
+	 * 4.将页面返回
+	 * @return
+	 */
+	@RequestMapping("create")
+	public String toCreate(Model model){
+		String userId = UserThreadLocal.getUser().getId();
+		cartService.findCartByUserId(userId)
+	}
+}

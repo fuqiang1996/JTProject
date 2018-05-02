@@ -1,0 +1,33 @@
+package com.jt.web.service.impl;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jt.common.service.HttpClientService;
+import com.jt.web.pojo.Order;
+import com.jt.web.service.OrderService;
+@Service
+public class OrderSerivceImpl implements OrderService {
+
+	@Autowired
+	private HttpClientService httpClientService;
+	private static ObjectMapper objectMapper = new ObjectMapper();
+	@Override
+	public String saveOrder(Order order) {
+		String uri = "http://order.jt.com/order/create";
+		try {
+			String OrderJSON = objectMapper.writeValueAsString(order);
+			Map<String,String> map = new HashMap<>();
+			map.put("OrderJSON", OrderJSON);
+			String doPost = httpClientService.doPost(uri, map);
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+}

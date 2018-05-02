@@ -1,0 +1,52 @@
+package com.jt.web.service.impl;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jt.common.service.HttpClientService;
+import com.jt.web.pojo.Item;
+import com.jt.web.service.SearchService;
+
+@Service
+public class SearchServiceImpl implements SearchService {
+	
+	@Autowired
+	private HttpClientService httpClientService;
+	
+	private static final ObjectMapper objectMapper = new ObjectMapper();
+	
+	private static final Logger logger = Logger.getLogger(SearchServiceImpl.class);
+	
+	@Override
+	public List<Item> findItemListByKeyWord(String keyWord,Integer page,Integer rows) {
+		List<Item> itemList = new ArrayList<Item>();
+		
+		String url = "http://search.jt.com/search";
+		Map<String, String> map = new HashMap<String,String>();
+		map.put("keyWord", keyWord);
+		map.put("page", page+"");
+		map.put("rows", rows+"");
+		
+		try {
+			String itemJSON = httpClientService.doPost(url, map,"UTF-8");
+			Item[] items = objectMapper.readValue(itemJSON, Item[].class);
+			for (Item item : items) {
+				itemList.add(item);
+			}
+			return itemList;
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.getMessage());
+		}
+		
+		return null;
+	}
+
+}

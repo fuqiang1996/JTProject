@@ -1,0 +1,13 @@
+package com.jt.web.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 购物车控制层
+ * @author 富强
+ *
+ */
+@Controller
+public class CartController {
+
+}

@@ -1,0 +1,16 @@
+package com.jt.web.util;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+public class UserThreadLocal {
+	
+	private static ThreadLocal threadLocal = new ThreadLocal();
+	
+	
+
+	
+}

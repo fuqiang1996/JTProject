@@ -1,0 +1,14 @@
+package com.jt.web.service;
+
+import com.jt.web.pojo.Order;
+
+public interface OrderService {
+
+	/**
+	 * 保存用户
+	 * @param order
+	 * @return
+	 */
+	String saveOrder(Order order);
+
+}

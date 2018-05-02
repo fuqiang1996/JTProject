@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;url&apos; in &apos;com.jt.common.service.HttpClientService.doGet(...)&apos; to &apos;uri&apos;&#x0D;&#x0A;- Original project: &apos;jt-common&apos;&#x0D;&#x0A;- Original element: &apos;com.jt.common.service.HttpClientService.doGet(String, Map&lt;String, String&gt;, String).url&apos;&#x0D;&#x0A;- Renamed element: &apos;url&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;url&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;com.jt.common.service{HttpClientService.java[HttpClientService~doGet~QString;~QMap\&lt;QString;QString;&gt;;~QString;@url!1709!1718!1716!1718!QString;!0!true" name="uri" references="true" stamp="1520946498196" version="1.0"/>
+</session>

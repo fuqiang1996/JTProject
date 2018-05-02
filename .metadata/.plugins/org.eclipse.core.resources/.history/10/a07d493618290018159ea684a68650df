@@ -1,0 +1,14 @@
+package com.jt.web.util;
+
+import com.jt.web.pojo.User;
+
+public class UserThreadLocal {
+	
+	private static ThreadLocal threadLocal = new ThreadLocal();
+	
+	public static User getUser(){
+		
+	}
+
+	
+}

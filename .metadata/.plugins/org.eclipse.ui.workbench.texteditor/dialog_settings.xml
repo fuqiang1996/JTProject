@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="325" key="DIALOG_WIDTH"/>
+		<item value="518" key="DIALOG_Y_ORIGIN"/>
+		<item value="1061" key="DIALOG_X_ORIGIN"/>
+		<item value="450" key="DIALOG_HEIGHT"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="/item/" key="selection"/>
+		<list key="findhistory">
+			<item value="/item/"/>
+			<item value="/items/"/>
+			<item value="/service/user/doRegister"/>
+			<item value="192.168.126.135"/>
+			<item value="datasource"/>
+			<item value="datesource"/>
+			<item value="picFileUpload"/>
+			<item value="加载商品描述"/>
+		</list>
+		<list key="replacehistory">
+			<item value="192.168.106.132"/>
+		</list>
+	</section>
+	<section name="org.eclipse.wst.xml.ui.internal.preferences.XMLTemplatePreferencePage$XMLEditTemplateDialog_dialogBounds">
+		<item value="725" key="DIALOG_WIDTH"/>
+		<item value="52" key="DIALOG_Y_ORIGIN"/>
+		<item value="419" key="DIALOG_HEIGHT"/>
+		<item value="12" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.wst.dtd.ui.internal.preferences.DTDTemplatePreferencePage$DTDEditTemplateDialog_dialogBounds">
+		<item value="725" key="DIALOG_WIDTH"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
+		<item value="419" key="DIALOG_HEIGHT"/>
+		<item value="2" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+	</section>
+</section>

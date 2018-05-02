@@ -1,0 +1,53 @@
+package com.jt.web.intercept;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.servlet.HandlerInterceptor;
+import org.springframework.web.servlet.ModelAndView;
+
+import redis.clients.jedis.JedisCluster;
+
+public class WebIntercept implements HandlerInterceptor {
+
+	@Autowired
+	private JedisCluster jedisCluster;
+	/**
+	 * 说明:如果用户没有登陆京淘系统,则应该在点击购物车按钮时,访问后台
+	 * 数据前生效.
+	 * 思路:
+	 * 	1.从request对象中获取ticket信息
+	 *  2.判断ticket信息中是否含有数据.
+	 *  	如果有数据:
+	 *  		从redis中获取userJSON数据.
+	 *  			如果数据不为null
+	 *  				获取user信息,之后保存~~~~~~~
+	 * 		除此之外 直接跳转到登陆页面
+	 * 
+	 *  3.参数解析
+	 *  */
+	@Override
+	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+			throws Exception {
+		
+		
+		
+		return false;
+	}
+
+	@Override
+	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
+			ModelAndView modelAndView) throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)
+			throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;uploadFile.properties&apos; to &apos;properties&apos;&#x0D;&#x0A;- Original project: &apos;jt-cart&apos;&#x0D;&#x0A;- Destination element: &apos;properties&apos;&#x0D;&#x0A;- Original element: &apos;uploadFile.properties&apos;" description="Copy file" element1="src/main/resources/properties/uploadFile.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1521548453834" target="/jt-order/src/main/resources/properties" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,7 @@
+package com.jt.cart.service.impl.copy;
+
+import com.jt.cart.service.CartService;
+
+public class CartServiceImpl implements CartService {
+
+}

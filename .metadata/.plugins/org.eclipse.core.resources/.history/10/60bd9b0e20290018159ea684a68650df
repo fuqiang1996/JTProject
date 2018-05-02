@@ -1,0 +1,14 @@
+package com.jt.order.service;
+
+import com.github.miemiedev.mybatis.paginator.domain.Order;
+
+public interface OrderService {
+
+	/**
+	 * 保存订单
+	 * @param order
+	 * @return
+	 */
+	String saveOrder(Order order);
+
+}

@@ -1,0 +1,26 @@
+package com.jt.order.service;
+
+import com.jt.order.pojo.Order;
+
+/**
+ * 业务接口类
+ * @author 富强
+ *
+ */
+public interface OrderService {
+
+	/**
+	 * 保存订单
+	 * @param order
+	 * @return
+	 */
+	String saveOrder(Order order);
+
+	/**
+	 * 根据商品ID查询订单
+	 * @param orderId
+	 * @return
+	 */
+	Order findOrderById(String orderId);
+
+}

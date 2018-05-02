@@ -1,0 +1,7 @@
+package com.jt.order.mapper;
+
+import com.jt.common.mapper.SysMapperProvider;
+
+public interface OrderItemMapper extends SysMapper {
+
+}

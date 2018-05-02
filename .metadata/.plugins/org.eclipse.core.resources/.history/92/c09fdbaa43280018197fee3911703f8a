@@ -1,0 +1,10 @@
+package com.jt.web.controller;
+
+/**
+ * 购物车控制层
+ * @author 富强
+ *
+ */
+public class CartController {
+
+}

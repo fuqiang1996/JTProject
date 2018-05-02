@@ -1,0 +1,2 @@
+127.0.0.1 - - [16/Mar/2018:22:50:35 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26200 http-bio-8091-exec-1 859
+127.0.0.1 - - [16/Mar/2018:22:51:24 +0800] "GET /web/itemcat/all?callback=category.getDataService HTTP/1.0" 200 26200 http-bio-8091-exec-2 44

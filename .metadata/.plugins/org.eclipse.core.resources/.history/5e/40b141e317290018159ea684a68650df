@@ -1,0 +1,5 @@
+package com.jt.web.util;
+
+public class UserThreadLocal {
+
+}

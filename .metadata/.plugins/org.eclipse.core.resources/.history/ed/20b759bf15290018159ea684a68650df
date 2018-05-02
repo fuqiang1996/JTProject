@@ -1,0 +1,5 @@
+package com.jt.order.mapper;
+
+public class OrderShippingMapper {
+
+}
